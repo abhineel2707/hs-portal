@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Sofa",
+    "image": "https://via.placeholder.com/150?text=Modern+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 2,
+    "name": "Classic Sofa",
+    "image": "https://via.placeholder.com/150?text=Classic+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 3,
+    "name": "Leather Sofa",
+    "image": "https://via.placeholder.com/150?text=Leather+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 4,
+    "name": "Fabric Sofa",
+    "image": "https://via.placeholder.com/150?text=Fabric+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 5,
+    "name": "Sectional Sofa",
+    "image": "https://via.placeholder.com/150?text=Sectional+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 6,
+    "name": "Recliner Sofa",
+    "image": "https://via.placeholder.com/150?text=Recliner+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 7,
+    "name": "Sleeper Sofa",
+    "image": "https://via.placeholder.com/150?text=Sleeper+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 8,
+    "name": "Loveseat Sofa",
+    "image": "https://via.placeholder.com/150?text=Loveseat+Sofa",
+    "productCategoryId": 1
+  },
+  {
+    "id": 9,
+    "name": "Chaise Lounge",
+    "image": "https://via.placeholder.com/150?text=Chaise+Lounge",
+    "productCategoryId": 1
+  },
+  {
+    "id": 10,
+    "name": "Futon Sofa",
+    "image": "https://via.placeholder.com/150?text=Futon+Sofa",
+    "productCategoryId": 1
+  },
+
+  {
+    "id": 11,
+    "name": "King Bed",
+    "image": "https://via.placeholder.com/150?text=King+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 12,
+    "name": "Queen Bed",
+    "image": "https://via.placeholder.com/150?text=Queen+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 13,
+    "name": "Double Bed",
+    "image": "https://via.placeholder.com/150?text=Double+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 14,
+    "name": "Single Bed",
+    "image": "https://via.placeholder.com/150?text=Single+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 15,
+    "name": "Bunk Bed",
+    "image": "https://via.placeholder.com/150?text=Bunk+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 16,
+    "name": "Loft Bed",
+    "image": "https://via.placeholder.com/150?text=Loft+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 17,
+    "name": "Trundle Bed",
+    "image": "https://via.placeholder.com/150?text=Trundle+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 18,
+    "name": "Canopy Bed",
+    "image": "https://via.placeholder.com/150?text=Canopy+Bed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 19,
+    "name": "Daybed",
+    "image": "https://via.placeholder.com/150?text=Daybed",
+    "productCategoryId": 2
+  },
+  {
+    "id": 20,
+    "name": "Murphy Bed",
+    "image": "https://via.placeholder.com/150?text=Murphy+Bed",
+    "productCategoryId": 2
+  },
+
+  {
+    "id": 21,
+    "name": "Glass Center Table",
+    "image": "https://via.placeholder.com/150?text=Glass+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 22,
+    "name": "Wooden Center Table",
+    "image": "https://via.placeholder.com/150?text=Wooden+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 23,
+    "name": "Marble Center Table",
+    "image": "https://via.placeholder.com/150?text=Marble+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 24,
+    "name": "Metal Center Table",
+    "image": "https://via.placeholder.com/150?text=Metal+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 25,
+    "name": "Round Center Table",
+    "image": "https://via.placeholder.com/150?text=Round+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 26,
+    "name": "Square Center Table",
+    "image": "https://via.placeholder.com/150?text=Square+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 27,
+    "name": "Rectangular Center Table",
+    "image": "https://via.placeholder.com/150?text=Rectangular+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 28,
+    "name": "Lift-Top Center Table",
+    "image": "https://via.placeholder.com/150?text=Lift-Top+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 29,
+    "name": "Storage Center Table",
+    "image": "https://via.placeholder.com/150?text=Storage+Center+Table",
+    "productCategoryId": 3
+  },
+  {
+    "id": 30,
+    "name": "Nested Center Table",
+    "image": "https://via.placeholder.com/150?text=Nested+Center+Table",
+    "productCategoryId": 3
+  },
+
+  {
+    "id": 31,
+    "name": "Modern Single Chair",
+    "image": "https://via.placeholder.com/150?text=Modern+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 32,
+    "name": "Classic Single Chair",
+    "image": "https://via.placeholder.com/150?text=Classic+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 33,
+    "name": "Leather Single Chair",
+    "image": "https://via.placeholder.com/150?text=Leather+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 34,
+    "name": "Fabric Single Chair",
+    "image": "https://via.placeholder.com/150?text=Fabric+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 35,
+    "name": "Recliner Single Chair",
+    "image": "https://via.placeholder.com/150?text=Recliner+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 36,
+    "name": "Rocking Single Chair",
+    "image": "https://via.placeholder.com/150?text=Rocking+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 37,
+    "name": "Swivel Single Chair",
+    "image": "https://via.placeholder.com/150?text=Swivel+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 38,
+    "name": "Accent Single Chair",
+    "image": "https://via.placeholder.com/150?text=Accent+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 39,
+    "name": "Wingback Single Chair",
+    "image": "https://via.placeholder.com/150?text=Wingback+Single+Chair",
+    "productCategoryId": 4
+  },
+  {
+    "id": 40,
+    "name": "Barrel Single Chair",
+    "image": "https://via.placeholder.com/150?text=Barrel+Single+Chair",
+    "productCategoryId": 4
+  },
+
+  {
+    "id": 41,
+    "name": "Modern Dining Table",
+    "image": "https://via.placeholder.com/150?text=Modern+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 42,
+    "name": "Classic Dining Table",
+    "image": "https://via.placeholder.com/150?text=Classic+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 43,
+    "name": "Glass Dining Table",
+    "image": "https://via.placeholder.com/150?text=Glass+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 44,
+    "name": "Wooden Dining Table",
+    "image": "https://via.placeholder.com/150?text=Wooden+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 45,
+    "name": "Marble Dining Table",
+    "image": "https://via.placeholder.com/150?text=Marble+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 46,
+    "name": "Metal Dining Table",
+    "image": "https://via.placeholder.com/150?text=Metal+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 47,
+    "name": "Round Dining Table",
+    "image": "https://via.placeholder.com/150?text=Round+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 48,
+    "name": "Square Dining Table",
+    "image": "https://via.placeholder.com/150?text=Square+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 49,
+    "name": "Rectangular Dining Table",
+    "image": "https://via.placeholder.com/150?text=Rectangular+Dining+Table",
+    "productCategoryId": 5
+  },
+  {
+    "id": 50,
+    "name": "Extendable Dining Table",
+    "image": "https://via.placeholder.com/150?text=Extendable+Dining+Table",
+    "productCategoryId": 5
+  }
+]

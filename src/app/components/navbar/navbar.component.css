@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  color: var(--background-color) !important;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: var(--background-color) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0.15rem 1rem;
+  border: 2px solid transparent; /* Initial transparent border to ensure smooth transition */
+}
+
+.nav-link:hover {
+  background-color: var(--background-color) !important;
+  color: var(--primary-color) !important;
+  border-color: var(
+    --primary-color
+  ); /* Visible border on hover to show rounded corners */
+  border-radius: 12px; /* Rounded corners */
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border-color: var(--background-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: var(--primary-color);
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
