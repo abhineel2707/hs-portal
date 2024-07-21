@@ -7,3 +7,32 @@
   padding: 0;
   width: 100%;
 }
+
+.pagination-container {
+  margin-bottom: 2rem;
+}
+
+/* Custom pagination link styles */
+.custom-pagination-link {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+}
+
+.custom-pagination-link:hover {
+  color: var(--secondary-color-1);
+}
+
+.page-item.disabled .custom-pagination-link {
+  color: var(--secondary-color-1);
+  pointer-events: none;
+  cursor: default;
+}
+
+.page-item .custom-pagination-link.active-link {
+  color: var(--text-color);
+  font-weight: bold;
+}

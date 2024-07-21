@@ -38,6 +38,7 @@
   border: none;
 }
 
+.fa-search,
 .fa-times {
   font-size: 1rem; /* Adjust the icon size if needed */
 }

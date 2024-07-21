@@ -10,6 +10,7 @@ import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 export class SearchComponent implements OnInit {
   @Output() searchQueryChanged = new EventEmitter<string>();
   searchControl = new FormControl();
+  showClearIcon = false;
 
   ngOnInit(): void {
     this.searchControl.valueChanges
@@ -17,10 +18,22 @@ export class SearchComponent implements OnInit {
         debounceTime(300), // Adjust the debounce time as needed
         distinctUntilChanged()
       )
-      .subscribe((query) => this.searchQueryChanged.emit(query));
+      .subscribe((query) => {
+        this.searchQueryChanged.emit(query);
+        this.updateClearIconVisibility();
+      });
+  }
+
+  onInputChange(): void {
+    this.updateClearIconVisibility();
+  }
+
+  updateClearIconVisibility(): void {
+    this.showClearIcon = !!this.searchControl.value;
   }
 
   clearSearch(): void {
     this.searchControl.setValue(''); // Clear the input field
+    this.updateClearIconVisibility();
   }
 }
