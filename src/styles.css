@@ -1,21 +1,17 @@
 /* Custom color scheme */
 :root {
-  --primary-color: #581ae8;
-  --secondary-color-1: #ff9800;
-  --secondary-color-2: #00bcd4;
-  --secondary-color-3: #ff4081;
-  --background-color: #f5f5f5;
-  --text-color: #212121;
-  --card-bg-color: #ffffff;
-  --navbar-bg-color: #ffffff;
-  --button-color: #581ae8;
+  --primary-color: #581ae8; /* For navbar and buttons */
+  --secondary-color-1: #ff9800; /* Accent color */
+  --background-color: #f5f5f5; /* Background for the body */
+  --text-color: #212121; /* Default text color */
 }
 
 /* General */
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0; /* Remove default margin */
+  min-height: 100vh; /* Ensure the body covers the viewport height */
+  font-family: Arial, sans-serif; /* Ensure a consistent font family */
 }

@@ -1,7 +1,7 @@
 <!-- src/app/components/navbar/navbar.component.html -->
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Home Story Portal</a>
+    <a class="navbar-brand" routerLink="/">Home Story Portal</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -18,8 +18,7 @@
         <li class="nav-item" *ngFor="let productCategory of productCategories">
           <a
             class="nav-link"
-            href="#"
-            (click)="selectProductCategory(productCategory)"
+            [routerLink]="['/products/category', productCategory.id]"
             >{{ productCategory.name }}</a
           >
         </li>

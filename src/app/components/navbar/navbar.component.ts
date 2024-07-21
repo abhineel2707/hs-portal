@@ -19,8 +19,4 @@ export class NavbarComponent implements OnInit {
         this.productCategories = data;
       });
   }
-
-  selectProductCategory(productCategory: ProductCategory) {
-    console.log(productCategory.id, productCategory.name);
-  }
 }

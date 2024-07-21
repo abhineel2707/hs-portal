@@ -1,0 +1,17 @@
+/* Container for the product list to handle layout and pagination */
+.container-fluid {
+  padding: 0 15px; /* Padding to prevent horizontal overflow */
+}
+
+/* Row inside the product list to handle product cards and overflow */
+.row {
+  margin-bottom: 1rem; /* Space for pagination */
+}
+
+/* Pagination styling to ensure it is at the bottom */
+.pagination {
+  /* margin-top: auto; */
+  /* position: fixed; */
+  bottom: 4rem;
+  margin-bottom: 1rem;
+}

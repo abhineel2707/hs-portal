@@ -5,4 +5,5 @@
   width: 100%;
   background-color: var(--navbar-bg-color);
   color: var(--text-color);
+  text-align: center;
 }
