@@ -16,6 +16,7 @@ export class ProductListComponent implements OnInit {
   currentPage: number = 1;
   totalPages: number = 0;
   maxPagesToShow: number = 5;
+  searchQuery: string = '';
 
   constructor(
     private productService: ProductService,
@@ -27,15 +28,25 @@ export class ProductListComponent implements OnInit {
       this.products = data;
       this.route.params.subscribe((params) => {
         const productCategoryId = +params['productCategoryId'];
-        this.filteredProducts = productCategoryId
-          ? this.products.filter(
-              (product) => product.productCategoryId === productCategoryId
-            )
-          : this.products;
-        this.currentPage = 1; // Reset to the first page whenever the filter changes
-        this.updatePaginatedProducts();
+        this.filterProducts(productCategoryId, this.searchQuery);
       });
     });
+  }
+
+  filterProducts(categoryId: number, query: string): void {
+    this.filteredProducts = this.products;
+    if (categoryId) {
+      this.filteredProducts = this.filteredProducts.filter(
+        (product) => product.productCategoryId === categoryId
+      );
+    }
+    if (query) {
+      this.filteredProducts = this.filteredProducts.filter((product) =>
+        product.name.toLowerCase().includes(query.toLowerCase())
+      );
+    }
+    this.currentPage = 1; // Reset to the first page whenever the filter changes
+    this.updatePaginatedProducts();
   }
 
   updatePaginatedProducts() {
@@ -81,5 +92,11 @@ export class ProductListComponent implements OnInit {
     }
 
     return pages;
+  }
+
+  onSearch(query: string): void {
+    this.searchQuery = query;
+    const productCategoryId = +this.route.snapshot.params['productCategoryId'];
+    this.filterProducts(productCategoryId, query);
   }
 }

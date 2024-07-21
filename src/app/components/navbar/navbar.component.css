@@ -28,7 +28,8 @@
   border: 2px solid transparent; /* Initial transparent border to ensure smooth transition */
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active-link {
   background-color: var(--background-color) !important;
   color: var(--primary-color) !important;
   border-color: var(

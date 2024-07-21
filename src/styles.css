@@ -10,8 +10,12 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  overflow-x: hidden; /* Prevent horizontal scrolling */
   margin: 0; /* Remove default margin */
   min-height: 100vh; /* Ensure the body covers the viewport height */
   font-family: Arial, sans-serif; /* Ensure a consistent font family */
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
