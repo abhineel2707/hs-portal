@@ -5,4 +5,9 @@
     placeholder="Search products..."
     [formControl]="searchControl"
   />
+  <div class="input-group-append">
+    <span class="input-group-text search-icon" (click)="clearSearch()">
+      <i class="fas fa-times"></i>
+    </span>
+  </div>
 </div>

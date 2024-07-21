@@ -19,4 +19,8 @@ export class SearchComponent implements OnInit {
       )
       .subscribe((query) => this.searchQueryChanged.emit(query));
   }
+
+  clearSearch(): void {
+    this.searchControl.setValue(''); // Clear the input field
+  }
 }

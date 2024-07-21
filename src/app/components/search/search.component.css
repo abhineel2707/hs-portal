@@ -1,4 +1,43 @@
-/* .search-container {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-} */
+/* Container for the search input */
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Style the search input to have only a bottom border */
+.search-input {
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 0;
+  box-shadow: none;
+  width: calc(100% - 40px); /* Adjust width to make room for the icon */
+}
+
+/* Remove default focus outline and add custom focus style */
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid var(--secondary-color-1);
+}
+
+/* Style the search icon */
+.search-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--primary-color);
+  pointer-events: auto;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+}
+
+.fa-times {
+  font-size: 1rem; /* Adjust the icon size if needed */
+}
